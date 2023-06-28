@@ -15,6 +15,7 @@ int main(){
     std::copy_n(var.begin(), 2, var.begin()+2);
     std::vector<int>a{2,5,1,8,4,9};
     std::vector<int> res(a.size());
+    //start iterator, end iterator, destination start iterator, conditioning checking function
     std::copy_if(a.begin(), a.end(), res.begin(), [](int num){return (num%2!=0);});
     /*
     *This function is used to move and no copy is made,
