@@ -1,5 +1,6 @@
 # std_examples
-This repository contains some handy std and algorithm functions with simple programs for reference
+
+This repository contains some handy std and algorithm functions with simple programs for reference.
 
 ## example1.cpp:
 
@@ -10,3 +11,4 @@ This repository contains some handy std and algorithm functions with simple prog
   -std::copy_if()
   
   -std::move()
+
